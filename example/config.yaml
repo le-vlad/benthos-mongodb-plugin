@@ -1,0 +1,9 @@
+input:
+  mongodb_stream:
+    uri: mongodb+srv://liroast:Ai3q2ybO2BdZ54dx@youcanrequest.uy3cppl.mongodb.net/?retryWrites=true&w=majority&appName=youcanrequest
+    database: liroast
+    collection: cached_profiles
+    stream_snapshot: true
+
+output:
+  stdout: {}
